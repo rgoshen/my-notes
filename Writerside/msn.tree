@@ -5,4 +5,5 @@
 <instance-profile id="msn" name="My SWE Notes"
                   start-page="">
 
+    <toc-element topic="Overview.md"/>
 </instance-profile>
