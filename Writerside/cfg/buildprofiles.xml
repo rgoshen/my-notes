@@ -3,7 +3,7 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables></variables>
-    <build-profile instance="hi">
+    <build-profile instance="msn">
         <variables>
             <noindex-content>false</noindex-content>
         </variables>
