@@ -2,9 +2,10 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="msn" name="my-swe-notes"
+<instance-profile id="msn" name="My Software Engineering Notes"
                   start-page="Overview.md">
 
     <toc-element topic="Overview.md"/>
+    <toc-element topic="Table-of-Contents.md"/>
     <toc-element topic="Glossary.md"/>
 </instance-profile>
