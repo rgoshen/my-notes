@@ -3,7 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="msn" name="my-swe-notes"
-                  start-page="">
+                  start-page="Overview.md">
 
     <toc-element topic="Overview.md"/>
+    <toc-element topic="Glossary.md"/>
 </instance-profile>

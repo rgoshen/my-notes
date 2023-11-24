@@ -17,7 +17,7 @@ and more. Suitable for all levels of expertise.
 - [Status of the Notes](#status-of-the-notes)
 - [Intended Audience](#intended-audience)
 
-## Web Development {collapsible="true"}
+## Web Development {collapsible="true" default-state="expanded"}
 
 ### Frontend Development {collapsible="true"}
 
@@ -29,39 +29,39 @@ and more. Suitable for all levels of expertise.
 - **Languages**: Python, Java, JavaScript
 - **Frameworks**: Node.js, Express, Flask, Spring, Spring Boot
 
-## Cloud Technologies {collapsible="true"}
+## Cloud Technologies {collapsible="true" default-state="expanded"}
 
 - In-depth notes on **Amazon Web Services (AWS)**, covering various services and cloud computing practices.
 
-## DevOps Tools and Practices {collapsible="true"}
+## DevOps Tools and Practices {collapsible="true" default-state="expanded"}
 
 - Principles and methodologies in DevOps.
 - Specific focus on **Jenkins** for CI/CD.
 
-## Infrastructure as Code {collapsible="true"}
+## Infrastructure as Code {collapsible="true" default-state="expanded"}
 
 - Detailed exploration of **Terraform**.
 
-## Databases {collapsible="true"}
+## Databases {collapsible="true" default-state="expanded"}
 
 - **SQL-based**: PostgreSQL
 - **NoSQL**: MongoDB
 - **Cloud-based**: Firebase and DynamoDB
 
-## Source of Information {collapsible="true"}
+## Source of Information {collapsible="true" default-state="expanded"}
 
 - Derived from online courses (Udemy, YouTube), textbooks, and technical documentation.
 - Includes cheat sheets for quick reference.
 
-## Organization {collapsible="true"}
+## Organization {collapsible="true" default-state="expanded"}
 
 - Categorized into major topics like languages, cloud technologies, DevOps, databases, each with specific sub-topics.
 
-## Status of the Notes {collapsible="true"}
+## Status of the Notes {collapsible="true" default-state="expanded"}
 
 - A mix of complete and in-progress notes, updated regularly with new learning and experiences.
 
-## Intended Audience {collapsible="true"}
+## Intended Audience {collapsible="true" default-state="expanded"}
 
 - Personal reference spanning a wide range of software engineering topics.
 - Useful for all learning stages, from beginners to advanced practitioners.
