@@ -6,6 +6,6 @@
                   start-page="Overview.md">
 
     <toc-element topic="Overview.md"/>
-    <toc-element topic="Table-of-Contents.md"/>
+    <toc-element topic="Web-Development.md"/>
     <toc-element topic="Glossary.md"/>
 </instance-profile>
