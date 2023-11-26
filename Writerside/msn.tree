@@ -10,4 +10,5 @@
     </toc-element>
     <toc-element topic="Front-end.md"/>
     <toc-element topic="HTML.md"/>
+    <toc-element topic="HTML-Foundations.md"/>
 </instance-profile>
