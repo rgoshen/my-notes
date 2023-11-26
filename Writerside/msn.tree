@@ -7,5 +7,6 @@
 
     <toc-element topic="Overview.md"/>
     <toc-element topic="Web-Development.md"/>
-    <toc-element topic="Glossary.md"/>
+    <toc-element topic="Front-end.md"/>
+    <toc-element topic="HTML.md"/>
 </instance-profile>

@@ -1,4 +1,4 @@
-# Web Development
+# Web Development Overview
 
 Web development is a vast field that involves building and maintaining websites. It's divided into frontend and backend
 development, each focusing on different aspects of creating a website or web application.
@@ -50,3 +50,13 @@ server, network, and hosting configuration.
 
 Web development is a dynamic and continually evolving field, requiring a blend of technical skills, creativity, and an
 understanding of the latest technologies and trends.
+
+## Glossary
+
+A definition list or a glossary:
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is the definition of the second term.
