@@ -7,7 +7,7 @@
 - \*[CSS]: Cascading Style Sheets
 - \*[HTML]: Hypertext Markup Language
 
-## Introduction
+## Course Introduction
 
 So here it is: it’s time to actually start making things. This section will teach you the basics of HTML and CSS, the
 two foundational building blocks of pretty much everything on the web.
@@ -195,11 +195,11 @@ are a couple of different options:
 > We **strongly** suggest that you use Google Chrome for all of your testing going forward.
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
-1. You can find the HTML file in your file system and then double click it. This will open up the file in the default
+2. You can find the HTML file in your file system and then double click it. This will open up the file in the default
    browser your system uses.
-1. You can use the terminal to open the file in your browser.
+3. You can use the terminal to open the file in your browser.
     1. **Ubuntu** - Navigate to the directory containing the file and use `google-chrome index.html`
-    1. **macOS** - Navigate to the directory containing the file and use `open ./index.html`
+    2. **macOS** - Navigate to the directory containing the file and use `open ./index.html`
 
 Using one of the methods above, open up the **index.html** file we have been working on. You’ll notice the screen is
 blank. This is because we don’t have anything in our body to display.
@@ -260,7 +260,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case,
 as you can see in the output below:
 
-[![output](../../../assets/images/body-output-ex.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
+[![output](body-output-ex.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
 
 When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The
 result of this compression is that all the text is clumped together into one long line.
@@ -270,7 +270,7 @@ our paragraphs. A paragraph element is defined by wrapping text content with a `
 
 Changing our example from before to use paragraph elements fixes the issue:
 
-[![output-2](../../../assets/images/body-output-2.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
+[![output-2](body-output-2.png)](https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV)
 
 ### Headings
 
@@ -284,7 +284,7 @@ therefore the smallest of the headings.
 Headings are defined much like paragraphs. For example, to create a h1 heading, we wrap our heading text in a `<h1>`
 tag.
 
-[![headings](../../../assets/images/headings.png)](https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg)
+[![headings](headings.png)](https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg)
 
 Using the correct level of heading is important as levels provide a hierarchy to the content. A h1 heading should always
 be used for the heading of the overall page, and the lower level headings should be used as the headings for content in
@@ -299,12 +299,12 @@ content in a `<strong>` tag.
 
 You can use strong on its own:
 
-[![strong](../../../assets/images/strong.png)](https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB)
+[![strong](strong.png)](https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB)
 
 But you will probably find yourself using the strong element much more in combination with other text elements, like
 this:
 
-[![strong2](../../../assets/images/strong-2.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqJr)
+[![strong2](strong-2.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqJr)
 
 Sometimes you will want to make text bold without giving it an important meaning. You’ll learn how to do that in the CSS
 lessons later in the curriculum.
@@ -316,11 +316,11 @@ screen readers. To define an emphasized element we wrap text content in a `<em>`
 
 To use em on its own:
 
-[![em](../../../assets/images/em.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqpp)
+[![em](em.png)](https://codepen.io/TheOdinProjectExamples/pen/wvewqpp)
 
 Again, like the strong element, you will find yourself mostly using the em element with other text elements:
 
-[![em-2](../../../assets/images/em-2.png)](https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj)
+[![em-2](em-2.png)](https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj)
 
 ### Nesting and Indentation
 
@@ -332,7 +332,7 @@ are the children and the element they are nested within is the parent.
 
 In the following example, the body element is the parent and the paragraph is the child:
 
-[![indentation-example](../../../assets/images/indentation-example-1.png)](https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO)
+[![indentation-example](indentation-example-1.png)](https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO)
 
 Just as in human relationships, HTML parent elements can have many children. Elements at the same level of nesting are
 considered to be siblings.
@@ -340,7 +340,7 @@ considered to be siblings.
 For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are
 at the same level of nesting as each other:
 
-[![sibling](../../../assets/images/silbling.png)](https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx)
+[![sibling](silbling.png)](https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx)
 
 We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with
 our HTML in the future. It is recommended to indent any child elements by two spaces.
@@ -356,7 +356,7 @@ future selves can read them and get some context about something that might not 
 
 Writing an HTML comment is simple: we just put `<!-- and -->` at either end of the comment. For example:
 
-[![comment](../../../assets/images/comment.png)](https://codepen.io/TheOdinProjectExamples/pen/abwoyBg)
+[![comment](comment.png)](https://codepen.io/TheOdinProjectExamples/pen/abwoyBg)
 
 ## Lists
 
@@ -375,7 +375,7 @@ element `<li>`.
 
 Each list item in an unordered list begins with a bullet point:
 
-[![ul](../../../assets/images/ul.png)](https://codepen.io/TheOdinProjectExamples/pen/powjajd)
+[![ul](ul.png)](https://codepen.io/TheOdinProjectExamples/pen/powjajd)
 
 ### Ordered Lists
 
@@ -385,7 +385,7 @@ or your top 10 favorite TV shows, then you can use an ordered list.
 Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item
 element `<li>`. However, each list item in an ordered list begins with a number instead:
 
-[![ol](../../../assets/images/ol.png)](https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp)
+[![ol](ol.png)](https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp)
 
 ## Links and Images
 
@@ -399,9 +399,9 @@ In this lesson, we will learn how to create links and add some visual flair to o
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
 1. Create a new directory named <span style="color:blue">odin-links-and-images</span>.
-1. Within that directory, create a new file names <span style="color:blue">index.html</span>
-1. Fill in the usual HTML boilerplate
-1. Finally, add the following h1 to the body
+2. Within that directory, create a new file names <span style="color:blue">index.html</span>
+3. Fill in the usual HTML boilerplate
+4. Finally, add the following h1 to the body
 
 ```html
 <h1>Homepage</h1>
@@ -444,7 +444,7 @@ HTML documents.
 Generally, there are two kinds of links we will create:
 
 1. Links to pages on other websites on the internet
-1. Links to pages located on out own website
+2. Links to pages located on out own website
 
 #### Absolute Links
 
@@ -549,15 +549,15 @@ It can embed an image using both absolute and relative paths.
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
-[![absolute-image-path](../../../assets/images/absolute-image-path.png)](https://codepen.io/TheOdinProjectExamples/pen/gORbExZ)
+[![absolute-image-path](absolute-image-path.png)](https://codepen.io/TheOdinProjectExamples/pen/gORbExZ)
 
 To use images that we have on our own websites, we can use a relative path.
 
 1. Create a new directory named <span style="color:blue">images</span> with in <span style="color:blue">
    odin-links-and-images</span> project
-1. Next, download this [image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into
+2. Next, download this [image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into
    the `images` directory we just created
-1. Rename the image to dog.jpg
+3. Rename the image to dog.jpg
 
 Finally add the image to the <span style="color:blue">index.html</span> file:
 
@@ -592,8 +592,8 @@ To break this down:
 
 1. First, we are going to the parent directory of the `pages` directory which is <span style="color:blue">
    odin-links-and-images</span>
-1. Then, from the parent directory, we can go into the <span style="color:blue">images</span> directory
-1. Finally, we can access the **dog.jpg** file
+2. Then, from the parent directory, we can go into the <span style="color:blue">images</span> directory
+3. Finally, we can access the **dog.jpg** file
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are
 currently in to the main hallway, so you can go to another room.
@@ -607,7 +607,7 @@ used with screen readers to describe what the image is to visually impaired user
 
 This is how The Odin Project logo example we used earlier looks with an alt attribute included:
 
-[![alt-attribute](../../../assets/images/alt-attribute.png)](https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp)
+[![alt-attribute](alt-attribute.png)](https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp)
 
 As a bit of practice, add an alt attribute to the dog image we added to the <span style="color:blue">
 odin-links-and-images</span> project.
