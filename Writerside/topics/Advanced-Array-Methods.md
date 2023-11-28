@@ -1,7 +1,5 @@
 # Advanced Array Methods
 
-**In-complete**
-
 ![javascript](javaScript.jpeg)
 
 ## Introduction {collapsible="true" default-state="expanded"}

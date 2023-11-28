@@ -33,7 +33,11 @@
                 <toc-element topic="Document-Object-Model-DOM.md"/>
                 <toc-element topic="Events.md"/>
                 <toc-element topic="Local-Storage.md"/>
-                <toc-element topic="Advanced-Array-Methods.md"/>
+                <toc-element topic="Advanced-Array-Methods.md">
+                    <toc-element topic="forEach-map-and-filter.md"/>
+                    <toc-element topic="some-every-find-and-findindex.md"/>
+                    <toc-element topic="reduce.md"/>
+                </toc-element>
                 <toc-element topic="ES2015.md"/>
                 <toc-element topic="Object-Oriented-Programming.md"/>
             </toc-element>
