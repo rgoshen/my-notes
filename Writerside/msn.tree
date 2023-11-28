@@ -53,6 +53,13 @@
             </toc-element>
         </toc-element>
     </toc-element>
+    <toc-element topic="Cheatsheets.md">
+        <toc-element topic="VIM.md"/>
+        <toc-element topic="Command-Line.md"/>
+        <toc-element topic="Git.md">
+        </toc-element>
+        <toc-element topic="Python.md"/>
+    </toc-element>
 
 
 </instance-profile>
