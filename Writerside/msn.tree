@@ -38,7 +38,14 @@
                     <toc-element topic="some-every-find-and-findindex.md"/>
                     <toc-element topic="reduce.md"/>
                 </toc-element>
-                <toc-element topic="ES2015.md"/>
+                <toc-element topic="ES2015.md">
+                    <toc-element topic="let-and-const.md"/>
+                    <toc-element topic="arrow-functions.md"/>
+                    <toc-element topic="Rest-Spread-Operators.md"/>
+                    <toc-element topic="Object-Enhancements.md"/>
+                    <toc-element topic="Destructuring.md"/>
+                    <toc-element topic="Maps-and-Sets.md"/>
+                </toc-element>
                 <toc-element topic="Object-Oriented-Programming.md"/>
             </toc-element>
         </toc-element>
