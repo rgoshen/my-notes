@@ -1,7 +1,5 @@
 # Object-Oriented Programming
 
-**In-complete**
-
 ![javascript](javaScript.jpeg)
 
 ## Abbreviations {collapsible="true"}
