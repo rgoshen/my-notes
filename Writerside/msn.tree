@@ -8,7 +8,9 @@
     <toc-element topic="Overview.md"/>
     <toc-element topic="Web-Development.md">
     </toc-element>
-    <toc-element topic="Front-end.md"/>
+    <toc-element topic="Front-end.md">
+    </toc-element>
     <toc-element topic="HTML.md"/>
     <toc-element topic="HTML-Foundations.md"/>
+    <toc-element topic="CSS-Overview.md"/>
 </instance-profile>

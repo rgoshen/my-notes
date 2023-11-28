@@ -60,6 +60,9 @@ An HTML document has a specific structure that includes doctype, head, and body 
 HTML is a fundamental technology for web development. Understanding its basics is essential for any web developer, and
 it serves as the stepping stone to more advanced web technologies like CSS and JavaScript.
 
+This Markdown document offers a detailed yet concise overview of HTML, emphasizing its importance, structure, and key
+elements in web development.
+
 ## Glossary
 
 A definition list or a glossary:
