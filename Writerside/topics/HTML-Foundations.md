@@ -7,7 +7,7 @@
 - \*[CSS]: Cascading Style Sheets
 - \*[HTML]: Hypertext Markup Language
 
-## Course Introduction
+## Course Introduction {collapsible="true" default-state="expanded"}
 
 So here it is: it’s time to actually start making things. This section will teach you the basics of HTML and CSS, the
 two foundational building blocks of pretty much everything on the web.
@@ -39,7 +39,7 @@ two foundational building blocks of pretty much everything on the web.
 - CSS adds the style to all those HTML data
     - used to position that information, give it color, change font, etc.
 
-## Elements and Tags
+## Elements and Tags {collapsible="true" default-state="expanded"}
 
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
@@ -60,7 +60,7 @@ users who rely on assistive technologies, like screen readers, to use the intern
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the
 curriculum.
 
-## HTML Boilerplate
+## HTML Boilerplate {collapsible="true" default-state="expanded"}
 
 ### Creating a HTML File
 
@@ -110,7 +110,7 @@ document, meaning that every other element in the document will be a descendant 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the
 HTML element should be included on every HTML document.
 
-Back in the index.html lets add the <html> element by typing out its opening and closing tags, like so:
+Back in the index.html lets add the `<html>` element by typing out its opening and closing tags, like so:
 
 ```html
 <!DOCTYPE html>
@@ -236,7 +236,7 @@ so you can build some muscle memory of how to write the boilerplate code.
 
 Resource: [HTML Validator](https://validator.w3.org/)
 
-## Working with Text
+## Working with Text {collapsible="true" default-state="expanded"}
 
 ### Introduction
 
@@ -358,7 +358,7 @@ Writing an HTML comment is simple: we just put `<!-- and -->` at either end of t
 
 [![comment](comment.png)](https://codepen.io/TheOdinProjectExamples/pen/abwoyBg)
 
-## Lists
+## Lists {collapsible="true" default-state="expanded"}
 
 Whether it be IMDB’s top 250 movies or the FBI’s most wanted, lists are everywhere on the web, and you are going to need
 one eventually in your webpages.
@@ -387,7 +387,7 @@ element `<li>`. However, each list item in an ordered list begins with a number 
 
 [![ol](ol.png)](https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp)
 
-## Links and Images
+## Links and Images {collapsible="true" default-state="expanded"}
 
 Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why
 it’s called the web. The internet is essentially a web of HTML pages connected to one another with links.
@@ -559,7 +559,7 @@ To use images that we have on our own websites, we can use a relative path.
    the `images` directory we just created
 3. Rename the image to dog.jpg
 
-Finally add the image to the <span style="color:blue">index.html</span> file:
+Finally, add the image to the <span style="color:blue">index.html</span> file:
 
 ```html
 

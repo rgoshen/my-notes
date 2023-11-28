@@ -3,7 +3,7 @@
 Web development is a vast field that involves building and maintaining websites. It's divided into frontend and backend
 development, each focusing on different aspects of creating a website or web application.
 
-## Frontend Development
+## Frontend Development {collapsible="true" default-state="expanded"}
 
 Frontend development is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a
 user can see and interact with them directly.
@@ -19,7 +19,7 @@ user can see and interact with them directly.
 - **Angular**: A platform for building mobile and desktop web applications.
 - **Vue.js**: A progressive framework for building UIs.
 
-## Backend Development
+## Backend Development {collapsible="true" default-state="expanded"}
 
 Backend development is the server-side of web development, focusing on database interactions, user authentication,
 server, network, and hosting configuration.
@@ -34,19 +34,19 @@ server, network, and hosting configuration.
 - **Database Management**: Storing, retrieving, and updating data in a database.
 - **API (Application Programming Interface)**: Allows different software to communicate with one another.
 
-## Tools and Practices
+## Tools and Practices {collapsible="true" default-state="expanded"}
 
 - **Version Control (Git/GitHub)**: Essential for tracking changes to the codebase and collaborating with others.
 - **Responsive Design**: Techniques to make web design look good on all devices.
 - **Testing and Debugging**: Ensuring the website is free of errors and functions as intended.
 
-## DevOps and Deployment
+## DevOps and Deployment {collapsible="true" default-state="expanded"}
 
 - **Continuous Integration and Deployment (CI/CD)**: Automating the deployment process.
 - **Containerization (Docker)**: Deploying applications in a portable and consistent environment.
 - **Cloud Services (AWS, Azure, Google Cloud)**: Hosting applications on cloud platforms.
 
-## Conclusion
+## Conclusion {collapsible="true" default-state="expanded"}
 
 Web development is a dynamic and continually evolving field, requiring a blend of technical skills, creativity, and an
 understanding of the latest technologies and trends.
@@ -54,7 +54,7 @@ understanding of the latest technologies and trends.
 This overview encapsulates the key aspects of front-end development, offering insights into the technologies, tools, and
 practices essential for modern web developers.
 
-## Glossary
+## Glossary {collapsible="true"}
 
 A definition list or a glossary:
 
