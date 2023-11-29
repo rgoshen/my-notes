@@ -1,6 +1,6 @@
 # How the Web Works
 
-## Abbreviations
+## Abbreviations {collapsible="true"}
 
 - \*[API]: Application Programming Interface
 - \*[DNS]: Domain Name Service
@@ -11,7 +11,7 @@
 - \*[IP]: Internet Protocol
 - \*[URL]: Universal Resource Locator
 
-## Introduction
+## Introduction {collapsible="true" default-state="expanded"}
 
 If you want to be a web developer, you've got to know how the web works. Luckily, the internet was designed by
 incredibly smart people with accessibility in mind.
@@ -42,7 +42,7 @@ Fortunately, to be a software developer, you only need to know a bit.
 For people who want to work in "development operations," or as a system administrator, it's typical to have to learn
 more about the details here.
 
-## Networks
+## Networks {collapsible="true" default-state="expanded"}
 
 A _network_ is a set of computers that can intercommunicate.
 The internet is just a really, huge network.
@@ -72,7 +72,7 @@ software engineers:
 In addition to their IP address on the network, all computers can reach themselves at this address. The name **localhost
 ** always maps to `127.0.0.1`.
 
-## URLs
+## URLs {collapsible="true" default-state="expanded"}
 
 **http://site.com/some/page.html?x=7**
 
@@ -157,7 +157,7 @@ means
 - Ask for **/some/page.html**
 - Pass along query string: x=1
 
-## DNS
+## DNS {collapsible="true" default-state="expanded"}
 
 I want to talk to [site.com]()
 
@@ -181,7 +181,7 @@ site.com. 631 IN A 123.45.67.89 # Answer
 ;; WHEN: Mon Apr 20 00:48:16 2018 ;; MSG SIZE rcvd: 46
 ```
 
-## Browsers and Servers
+## Browsers and Servers {collapsible="true" default-state="expanded"}
 
 ### Request and Response
 
@@ -263,7 +263,7 @@ Content-Type: text/html                # This is HTML content
 
 **500**—Server has an internal problem
 
-## Serving Over HTTP
+## Serving Over HTTP {collapsible="true" default-state="expanded"}
 
 Just opening an HTML file in browser uses **file** protocol, not **http**
 Some things don’t work the same (esp security-related stuff)
@@ -282,7 +282,7 @@ python3 -m http.server
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)...
 ```
 
-## Multiple Requests
+## Multiple Requests {collapsible="true" default-state="expanded"}
 
 ### Sample HTML
 
@@ -404,7 +404,7 @@ Cookie: [any cookies browser is storing for that host]
     - They'll assemble the final result as requests come back
 - You can view this in browser console --> Network
 
-## Trying on Command Line
+## Trying on Command Line {collapsible="true" default-state="expanded"}
 
 ### Curl (OSX)
 
