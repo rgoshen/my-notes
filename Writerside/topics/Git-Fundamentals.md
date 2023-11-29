@@ -172,7 +172,7 @@ got config --global color.ui auto
 These global configuration settings live in a file call **.gitconfig** which typically lives in your home directory. Try
 running `cat ~/.gitconfig` to see all your settings!
 
-[Git Cheatsheet](./Git-Cheatsheet.md)
+[Git Cheatsheet](Git-Cheatsheet.md)
 
 ## Best Practices {collapsible="true" default-state="expanded"}
 
