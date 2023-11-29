@@ -1,4 +1,4 @@
-# Command Line Cheatsheet
+# Command-line Cheatsheet
 
 ## Text Navigation shortcuts {collapsible="true" default-state="expanded"}
 
@@ -24,3 +24,7 @@ manual : man
 ```bash
 apropos "list"
 ```
+
+<seealso>
+    <!--Provide links to related how-to guides, overviews, and tutorials.-->
+</seealso>

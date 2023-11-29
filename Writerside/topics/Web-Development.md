@@ -5,13 +5,6 @@ mechanics behind how it works. Well, it's not magic, but it's not rocket science
 foundation of agreed-upon protocols, the ones we'll be looking at handle data transmission. We'll go over some of the
 most important principles like HTTP, GET vs. POST, DNS, and the Request/Response Cycle.
 
-This unit will explore how the internet works and the various protocols that enable browsers to send and receive data.
-We'll walk you through how searching for a URL returns a fully functional web page. This new knowledge is guaranteed to
-impress strangers at parties, but more importantly, most phone technical phone screens will quiz you on how stuff like
-the DNS works. Your ability to land an in-person interview will be directly tied to your ability to explain the concepts
-in this unit to a recruiter, concisely. You'll also learn about AJAX and how to write asynchronous code - which will
-enable you to write code that continues to execute while waiting to receive the response for a fetch request.
-
 Web development is a vast field that involves building and maintaining websites. It's divided into frontend and backend
 development, each focusing on different aspects of creating a website or web application.
 
