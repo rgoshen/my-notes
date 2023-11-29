@@ -29,7 +29,7 @@
                     <toc-element topic="Level-2.md"/>
                 </toc-element>
             </toc-element>
-            <toc-element topic="JavaScript-For-Front-end-Development-Overview.md">
+            <toc-element topic="JavaScript-For-Front-end-Development.md">
                 <toc-element topic="Vanilla-JavaScript-Fundamentals-Part-1.md"/>
                 <toc-element topic="Vanilla-JavaScript-Fundamentals-Part-2.md"/>
                 <toc-element topic="Document-Object-Model-DOM.md"/>
