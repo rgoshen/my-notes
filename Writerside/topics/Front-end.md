@@ -1,4 +1,4 @@
-# Front-End Development Overview
+# Front-End Development
 
 Front-end development is a crucial aspect of web development, involving the creation of the visual and interactive
 elements of a website. It's about translating the design and vision into a functional, user-friendly interface.

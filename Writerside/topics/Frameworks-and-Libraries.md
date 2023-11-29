@@ -1,4 +1,4 @@
-# Frameworks and Libraries Overview
+# Frameworks and Libraries
 
 Front-end frameworks and libraries are essential tools in modern web development, simplifying the process of building
 interactive and responsive web applications. Here's a look at some of the most popular ones:

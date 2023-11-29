@@ -1,4 +1,4 @@
-# JavaScript For Front-end Development Overview
+# JavaScript For Front-end Development
 
 ![javascript](javaScript.jpeg)
 
