@@ -10,7 +10,7 @@
         <toc-element topic="Command-line-Cheatsheet.md"/>
         <toc-element topic="VIM.md"/>
         <toc-element topic="Git-Cheatsheet.md"/>
-        <toc-element topic="Python.md"/>
+        <toc-element topic="Python-Cheatsheet.md"/>
     </toc-element>
     <toc-element topic="Programming-Languages.md">
         <toc-element topic="C-Programming-A-Modern-Approach.md"/>
