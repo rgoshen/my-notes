@@ -19,6 +19,7 @@
         <toc-element topic="Web-Developer-Fundamentals.md">
             <toc-element topic="How-the-Web-Works.md"/>
             <toc-element topic="APIs.md"/>
+            <toc-element topic="JSON-Web-Tokens-JWT.md"/>
             <toc-element topic="Web-Fundamentals.md"/>
             <toc-element topic="Debugging-and-Errors.md"/>
             <toc-element topic="JavaScript-Timers.md"/>
@@ -35,18 +36,6 @@
             <toc-element topic="CSS-Overview.md">
                 <toc-element topic="CSS-Foundations.md"/>
                 <toc-element topic="CSS-Flexbox.md"/>
-            </toc-element>
-            <toc-element topic="Frameworks-and-Libraries.md">
-                <toc-element topic="AJAX.md"/>
-                <toc-element topic="Bootstrap.md"/>
-                <toc-element topic="jQuery.md"/>
-                <toc-element topic="React-Overview.md">
-                    <toc-element topic="React-For-Everyone.md"/>
-                    <toc-element topic="Hooks-For-Everyone.md"/>
-                    <toc-element topic="React-Redux-For-Everyone.md"/>
-                    <toc-element topic="Redux-Thunk.md"/>
-                    <toc-element topic="Level-2.md"/>
-                </toc-element>
             </toc-element>
             <toc-element topic="JavaScript-For-Front-end-Development.md">
                 <toc-element topic="Vanilla-JavaScript-Fundamentals-Part-1.md"/>
@@ -72,6 +61,18 @@
                     <toc-element topic="this.md"/>
                 </toc-element>
             </toc-element>
+            <toc-element topic="Frameworks-and-Libraries-Front-End.md">
+                <toc-element topic="AJAX.md"/>
+                <toc-element topic="Bootstrap.md"/>
+                <toc-element topic="jQuery.md"/>
+                <toc-element topic="React-Overview.md">
+                    <toc-element topic="React-For-Everyone.md"/>
+                    <toc-element topic="Hooks-For-Everyone.md"/>
+                    <toc-element topic="React-Redux-For-Everyone.md"/>
+                    <toc-element topic="Redux-Thunk.md"/>
+                    <toc-element topic="Level-2.md"/>
+                </toc-element>
+            </toc-element>
         </toc-element>
         <toc-element topic="Back-end.md">
             <toc-element topic="Java-For-Back-end-Web-Development.md">
@@ -80,6 +81,9 @@
             </toc-element>
             <toc-element topic="Python-Overview.md">
                 <toc-element topic="Python.md"/>
+            </toc-element>
+            <toc-element topic="Frameworks-and-Libraries-For-Back-End.md">
+                <toc-element topic="NodeJs-Overview.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
