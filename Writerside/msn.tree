@@ -11,6 +11,8 @@
             <toc-element topic="How-the-Web-Works.md"/>
             <toc-element topic="APIs.md"/>
             <toc-element topic="Web-Fundamentals.md"/>
+            <toc-element topic="Debugging-and-Errors.md"/>
+            <toc-element topic="JavaScript-Timers.md"/>
             <toc-element topic="Command-line.md"/>
             <toc-element topic="Git-Fundamentals.md">
                 <toc-element topic="Git-Branching-and-Merging.md"/>
