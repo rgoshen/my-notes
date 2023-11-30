@@ -12,7 +12,9 @@
         <toc-element topic="Git-Cheatsheet.md"/>
         <toc-element topic="Python.md"/>
     </toc-element>
-    <toc-element topic="Programming-Languages.md"/>
+    <toc-element topic="Programming-Languages.md">
+        <toc-element topic="C-Programming-A-Modern-Approach.md"/>
+    </toc-element>
     <toc-element topic="Web-Development.md">
         <toc-element topic="Web-Developer-Fundamentals.md">
             <toc-element topic="How-the-Web-Works.md"/>
