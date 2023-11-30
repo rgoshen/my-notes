@@ -13,15 +13,13 @@ yourself that when you're interviewing.
 To succeed in this unit, make sure you do your homework exercises, code along to videos, and try everything we teach you
 on your own. We will build upon concepts covered in all the previous JavaScript units, and you will use what you learn
 here in all future units. In particular, you will use these skills in later units to refactor the code on some of your
-earlier projects - essentially rewriting the code more professionally and in a modern way.
+earlier projects—essentially rewriting the code more professionally and in a modern way.
 
 ### Goals
 
-[//]: # (TODO: fix link to web fundamentals&#41)
-
 - Learn and get comfortable with advanced array methods
 - Dive deeper into callback functions and higher order functions,introduced
-  in [Web Fundamentals](../../../computer_science/web_development/web_developer_fundamentals/developer-fundamentals.md)
+  in [Web Fundamentals](Web-Developer-Fundamentals.md)
 - Learn methods like **sum**, **find**, **index**, and **reduce**
 
 <seealso>
