@@ -32,7 +32,7 @@ deactivate # deactivates virtual environment
 - doctests: `python3 -m doctest -v <file.test.py>`
 - unittests: `python3 -m unittest`
 
-[//]: # (TODO: resolve link)
+[//]: # (TODO: resolve link to python testing)
 [Testing](../testing/python/python.testing.md) for more options on testing
 
 ## Run Flask Apps {collapsible="true" default-state="expanded"}
