@@ -83,7 +83,13 @@
                 <toc-element topic="Python.md"/>
             </toc-element>
             <toc-element topic="Frameworks-and-Libraries-For-Back-End.md">
-                <toc-element topic="NodeJs-Overview.md"/>
+                <toc-element topic="NodeJs-Overview.md">
+                    <toc-element topic="Authentication-JSON-Web-Token-JWT.md">
+                        <toc-element topic="authServer-js-Example.md"/>
+                        <toc-element topic="server-js-Example.md"/>
+                        <toc-element topic="request-rest-Example.md"/>
+                    </toc-element>
+                </toc-element>
             </toc-element>
         </toc-element>
     </toc-element>
