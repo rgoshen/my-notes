@@ -2,12 +2,12 @@
 
 [![nodejs](nodejs.png)](https://nodejs.org/en/)
 
-## Abbreviations
+## Abbreviations {collapsible="true"}
 
 - \*[JSON]: JavaScript Object Notation
 - \*[JWT]: JSON Web Token
 
-## Introduction
+## Introduction {collapsible="true" default-state="expanded"}
 
 JSON web tokens are one of the more popular ways to secure applications, especially in micro-services, but JWT is much
 more complex than a simple session based user authentication. In this tutorial I will be breaking down exactly how to
@@ -15,7 +15,7 @@ set up authentication with JWT and how to ensure the authentication is secure. I
 refresh tokens with JWT so that your application is even more resilient and secure. Lastly, I will show how to
 invalidate refresh tokens which is the ultimate last step in securing an application.
 
-## Part 1: Simple JWT authentication
+## Part 1: Simple JWT authentication {collapsible="true" default-state="expanded"}
 
 - create tokens and send tokens to users and then authenticate those tokens on the server
 - JWT is incredibly powerful
@@ -121,7 +121,7 @@ npm run devServer
 npm run authServer
 ```
 
-## Part 2: Refresh Tokens
+## Part 2: Refresh Tokens {collapsible="true" default-state="expanded"}
 
 - increases the security of the server
 - able to revoke privileges from users we no longer want to have those privileges (similar to logout)
