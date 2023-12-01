@@ -1,4 +1,4 @@
-# Request.rest Example
+# Request.rest JWT Example
 
 ```bash
 GET http://localhost:3000/posts Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjQyOTA4NzE3LCJleHAiOjE2NDI5MDg3MzJ9.xutbIjvfjsJksXpkZGpGBjJ_6ga7mDboA9voHDgki8w
@@ -28,5 +28,5 @@ POST http://localhost:4000/logout Content-Type: application/json
 }
 ```
 
-{collapsible="true" collapsed-title="Request.rest"}
+{collapsible="true" collapsed-title="request.rest"}
 '###' denotes line separation

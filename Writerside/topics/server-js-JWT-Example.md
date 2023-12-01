@@ -1,10 +1,10 @@
-# Server.js Example
+# server.js JWT Example
 
 Reference
 
 - [NPM JWT Doc](https://www.npmjs.com/package/jsonwebtoken)
 
-## Steps/Notes
+## Steps/Notes {collapsible="true" default-state="expanded"}
 
 - `const express = require('express')` bring in the express library
 - `const app = express()` setup (instantiate) the express server
@@ -71,4 +71,4 @@ function authenticateToken(req, res, next) {
 app.listen(3000)
 ```
 
-{collapsible="true" collapsed-title="Server.js"}
+{collapsible="true" collapsed-title="server.js"}

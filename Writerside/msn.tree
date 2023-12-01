@@ -85,9 +85,13 @@
             <toc-element topic="Frameworks-and-Libraries-For-Back-End.md">
                 <toc-element topic="NodeJs-Overview.md">
                     <toc-element topic="Authentication-JSON-Web-Token-JWT.md">
-                        <toc-element topic="authServer-js-Example.md"/>
-                        <toc-element topic="server-js-Example.md"/>
-                        <toc-element topic="request-rest-Example.md"/>
+                        <toc-element topic="authServer-js-JWT-Example.md"/>
+                        <toc-element topic="server-js-JWT-Example.md"/>
+                        <toc-element topic="request-rest-JWT-Example.md"/>
+                    </toc-element>
+                    <toc-element topic="User-Authentication-Using-b-crypt.md">
+                        <toc-element topic="request-rest-User-Auth-Example.md"/>
+                        <toc-element topic="server-js-User-Auth-Example.md"/>
                     </toc-element>
                 </toc-element>
             </toc-element>

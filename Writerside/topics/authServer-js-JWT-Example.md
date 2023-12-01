@@ -1,4 +1,4 @@
-# authServer.js Example
+# authServer.js JWT Example
 
 1. create a function to generate an access token and add expiration date to it (usually 10-15 mins)
 2. create a refresh token and return to user inside login route

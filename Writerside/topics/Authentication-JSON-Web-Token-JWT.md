@@ -58,7 +58,7 @@ npm init -y
 npm i nodemon --save-dev
 ```
 
-6. create [server.js](server-js-Example.md)
+6. create [server.js](server-js-JWT-Example.md)
 
     1. this will be the main server in node.js
 
@@ -80,7 +80,7 @@ npm i nodemon --save-dev
 npm run devServer
 ```
 
-9. create a [request.rest](request-rest-Example.md) file
+9. create a [request.rest](request-rest-JWT-Example.md) file
 
     1. you need to have [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension
        installed
@@ -95,12 +95,12 @@ node
 '7d95ffc652289719329cfc607e66998d07aaccfaa691077b47aa16d86be8b988c2816ff3c5f14b8e18290a9d522e01b4611b24a730de609ac6c08c5cb1abfffa'
 ```
 
-11. copy [server.js](server-js-Example.md) file and rename
-    to [authServer.js](authServer-js-Example.md) and change port number
+11. copy [server.js](server-js-JWT-Example.md) file and rename
+    to [authServer.js](authServer-js-JWT-Example.md) and change port number
 
-12. in [server.js](server-js-Example.md) remove login route
+12. in [server.js](server-js-JWT-Example.md) remove login route
 
-13. in [authServer.js](authServer-js-Example.md) remove get post route
+13. in [authServer.js](authServer-js-JWT-Example.md) remove get post route
     and `authenticateToken` middleware
 
 14. add start script in `package.json`
