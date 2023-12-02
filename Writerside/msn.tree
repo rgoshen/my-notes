@@ -112,6 +112,7 @@
         </toc-element>
         <toc-element topic="JavaScript-Testing-Overview.md">
             <toc-element topic="JavaScript-Unit-Testing-the-Practical-Guide.md"/>
+            <toc-element topic="Jasmine-Testing.md"/>
         </toc-element>
         <toc-element topic="React-Testing-Overview.md">
             <toc-element topic="React-Testing-for-Beginners.md"/>
