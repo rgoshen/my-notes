@@ -97,6 +97,15 @@
             </toc-element>
         </toc-element>
     </toc-element>
+    <toc-element topic="Operating-Systems.md">
+        <toc-element topic="Linux-Operating-System-Overview.md">
+            <toc-element topic="Basic-CLI-Commands.md"/>
+            <toc-element topic="Manjaro-Linux-Overview.md">
+                <toc-element topic="Manjaro-Misc.md"/>
+                <toc-element topic="Manjaro-PostgreSQL.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
 
 
 </instance-profile>
