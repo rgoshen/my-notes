@@ -1,6 +1,6 @@
 # transactionCreateStepTwo.test.js
 
-```node
+```Javascript
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import TransactionCreateStepTwo from "./TransactionCreateStepTwo";

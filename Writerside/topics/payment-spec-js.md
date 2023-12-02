@@ -1,6 +1,6 @@
 # payment.spec.js
 
-```node
+```Javascript
 const { v4: uuidv4 } = require("uuid");
 
 describe("payment", () => {

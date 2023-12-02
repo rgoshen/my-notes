@@ -19,7 +19,7 @@ and password.
 
 - Ex without salt:
 
-```nodejs
+```Javascript
 //user 1 password
 hash('password');    // stores as asdoifaosidk
 
@@ -31,7 +31,7 @@ hash('password');    // stores as asdoifaosidk
 
 - Ex with salt:
 
-```nodejs
+```Javascript
 //user 1 password
 hash(salt + 'password');    // stores as lkasdlfoijig
 
@@ -46,7 +46,7 @@ hash(salt + 'password');    // stores as asdoifaosidk
 
 ## How to properly hash a password {collapsible="true" default-state="expanded"}
 
-```nodejs
+```Javascript
 const bcrypt = require('bcrypt');
 const saltRounds = 10;  // the more rounds the more secure and also more slow
 const myPlaintextPassword = 's0/\/\P4$$w0rD';
@@ -57,7 +57,7 @@ const someOtherPlaintextPassword = 'not_bacon';
 
 (generate a salt and hash on separate function calls)
 
-```nodejs
+```Javascript
 bcrypt.genSalt(saltRounds, (err, salt) => {
     bcrypt.hash(myPlaintextPassword, salt, (err, hash) => {
         // store hash in your password DB.
@@ -69,7 +69,7 @@ bcrypt.genSalt(saltRounds, (err, salt) => {
 
 (auto-gen a salt and hash)
 
-```nodejs
+```Javascript
 bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
     // Store hash in your password DB.
 })
@@ -77,7 +77,7 @@ bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
 
 ## User login {collapsible="true" default-state="expanded"}
 
-```nodejs
+```Javascript
 async function checkUser(username, password) {
     //... fetch user from a db etc.
 

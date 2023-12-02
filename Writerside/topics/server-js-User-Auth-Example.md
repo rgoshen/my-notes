@@ -36,7 +36,7 @@
        db.
     4. if match, log user in else return 'Not allowed'
 
-```node
+```Javascript
 const express = require('express');
 const app = express();
 const bcrypt = require('bcrypt');

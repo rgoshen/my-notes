@@ -13,7 +13,7 @@
 >
 > locally in authServer.js
 
-```node
+```Javascript
 require('dotenv').config();
 
 const express = require('express');

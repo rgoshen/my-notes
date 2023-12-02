@@ -27,7 +27,7 @@ Reference
     - `next()` passes control on to the next piece of code whether that is another middleware or back to the main file
 - `post.username === req.user.name` this will only add back the posts that belong to the authenticated user
 
-```node
+```Javascript
 require('dotenv').config();
 
 const express = require('express');

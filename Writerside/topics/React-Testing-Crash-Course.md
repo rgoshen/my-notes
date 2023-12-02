@@ -109,7 +109,7 @@ A good example of a simple integration test then would be to combine the two uni
 moving the assertion from the first test into the second test before the user interaction and then deleting the first
 test.
 
-```node
+```Javascript
 test("amount and note entered, pay button becomes enabled", async () => {
   render(<TransactionCreateStepTwo sender={{ id: "5" }} receiver={{ id: "5" }} />);
 
@@ -156,7 +156,7 @@ yarn run cypress open
     1. go to '/cypress/support/commands.js'
     2. add the following
 
-   ```javascript
+   ```Javascript
    import '@testing-library/cypress/';
    ```
 
@@ -185,7 +185,7 @@ navbar.
 lines 40 & 41
 in [paymentSpec Example](payment-spec-js.md)
 
-```node
+```Javascript
 cy.findByText(`-$${paymentAmount}`).should("be.visible");
 cy.findByText(note).should("be.visible");
 ```
