@@ -12,8 +12,44 @@
         <toc-element topic="Git-Cheatsheet.md"/>
         <toc-element topic="Python-Cheatsheet.md"/>
     </toc-element>
+    <toc-element topic="Misc-Topics.md">
+        <toc-element topic="How-to-Solve-Any-Algorithm.md"/>
+        <toc-element topic="Full-stack-Project-Planning.md"/>
+        <toc-element topic="Computational-Thinking-for-Problem-Solving.md">
+            <toc-element topic="Module-1-Pillars-of-Computational-Thinking.md"/>
+            <toc-element topic="Module-2-Expressing-and-Analyzing-Algorithms.md"/>
+            <toc-element topic="Module-3-Operations-of-a-Modern-Computer.md"/>
+            <toc-element topic="Module-4-Applied-Computational-Thinking-Using-Python.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Operating-Systems.md">
+        <toc-element topic="Linux-Operating-System-Overview.md">
+            <toc-element topic="Basic-CLI-Commands.md"/>
+            <toc-element topic="Manjaro-Linux-Overview.md">
+                <toc-element topic="Manjaro-Misc.md"/>
+                <toc-element topic="Manjaro-PostgreSQL.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Programming-Languages.md">
         <toc-element topic="C-Programming-A-Modern-Approach-Book.md"/>
+    </toc-element>
+    <toc-element topic="Testing-Overview.md">
+        <toc-element topic="Python-Testing-Overview.md">
+            <toc-element topic="Python-Testing-Commands.md"/>
+        </toc-element>
+        <toc-element topic="JavaScript-Testing-Overview.md">
+            <toc-element topic="Introduction-to-Jest-Testing.md"/>
+            <toc-element topic="JavaScript-Unit-Testing-the-Practical-Guide.md"/>
+            <toc-element topic="Jasmine-Testing.md"/>
+        </toc-element>
+        <toc-element topic="React-Testing-Overview.md">
+            <toc-element topic="React-Testing-for-Beginners.md"/>
+            <toc-element topic="React-Testing-Crash-Course.md">
+                <toc-element topic="transactionCreateStepTwo-test-js.md"/>
+                <toc-element topic="payment-spec-js.md"/>
+            </toc-element>
+        </toc-element>
     </toc-element>
     <toc-element topic="Web-Development.md">
         <toc-element topic="Web-Developer-Fundamentals.md">
@@ -94,32 +130,6 @@
                         <toc-element topic="server-js-User-Auth-Example.md"/>
                     </toc-element>
                 </toc-element>
-            </toc-element>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="Operating-Systems.md">
-        <toc-element topic="Linux-Operating-System-Overview.md">
-            <toc-element topic="Basic-CLI-Commands.md"/>
-            <toc-element topic="Manjaro-Linux-Overview.md">
-                <toc-element topic="Manjaro-Misc.md"/>
-                <toc-element topic="Manjaro-PostgreSQL.md"/>
-            </toc-element>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="Testing-Overview.md">
-        <toc-element topic="Python-Testing-Overview.md">
-            <toc-element topic="Python-Testing-Commands.md"/>
-        </toc-element>
-        <toc-element topic="JavaScript-Testing-Overview.md">
-            <toc-element topic="Introduction-to-Jest-Testing.md"/>
-            <toc-element topic="JavaScript-Unit-Testing-the-Practical-Guide.md"/>
-            <toc-element topic="Jasmine-Testing.md"/>
-        </toc-element>
-        <toc-element topic="React-Testing-Overview.md">
-            <toc-element topic="React-Testing-for-Beginners.md"/>
-            <toc-element topic="React-Testing-Crash-Course.md">
-                <toc-element topic="transactionCreateStepTwo-test-js.md"/>
-                <toc-element topic="payment-spec-js.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
