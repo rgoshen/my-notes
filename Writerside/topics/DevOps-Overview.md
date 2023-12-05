@@ -1,12 +1,14 @@
 # DevOps Overview
 
-DevOps is a set of practices that combines software development (Dev), and IT operations (Ops), aiming to shorten the
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the
 development lifecycle and provide continuous delivery with high software quality.
 
 ## What is DevOps? {collapsible="true" default-state="expanded"}
 
 DevOps is an approach to culture, automation, and platform design intended to deliver increased business value and
 responsiveness through rapid, high-quality service delivery.
+
+![Image Placeholder: An illustration showing the DevOps cycle](#)
 
 ## Key Principles of DevOps {collapsible="true" default-state="expanded"}
 
