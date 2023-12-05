@@ -19,8 +19,17 @@
         <toc-element topic="DynamoDB.md"/>
     </toc-element>
     <toc-element topic="DevOps-Overview.md">
+        <toc-element topic="Terraform-Hashicorp-Tutorials.md"/>
         <toc-element topic="Introduction-to-DevOps-Tools.md"/>
+        <toc-element topic="Containers-Overview.md">
+            <toc-element topic="Docker-Containers-and-Kubernetes-Fundamentals.md"/>
+        </toc-element>
+        <toc-element topic="Version-Control-System-VCS-Overview.md">
+            <toc-element topic="Git.md"/>
+        </toc-element>
+        <toc-element topic="Terminal.md"/>
         <toc-element topic="CI-CD-For-Beginners.md"/>
+        <toc-element topic="Jenkins-From-Zero-to-Hero-Become-a-DevOps-Jenkins-Master.md"/>
     </toc-element>
     <toc-element topic="Misc-Topics.md">
         <toc-element topic="How-to-Solve-Any-Algorithm.md"/>
