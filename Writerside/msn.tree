@@ -12,6 +12,15 @@
         <toc-element topic="Git-Cheatsheet.md"/>
         <toc-element topic="Python-Cheatsheet.md"/>
     </toc-element>
+    <toc-element topic="Amazon-Web-Services-AWS-Overview.md">
+        <toc-element topic="Full-Stack-Developer.md"/>
+        <toc-element topic="Introduction-to-Cloud-Computing.md"/>
+        <toc-element topic="Front-End-Developer.md"/>
+        <toc-element topic="DynamoDB.md"/>
+    </toc-element>
+    <toc-element topic="DevOps-Overview.md">
+        <toc-element topic="CI-CD-For-Beginners.md"/>
+    </toc-element>
     <toc-element topic="Misc-Topics.md">
         <toc-element topic="How-to-Solve-Any-Algorithm.md"/>
         <toc-element topic="Full-stack-Project-Planning.md"/>
