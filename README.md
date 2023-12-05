@@ -100,4 +100,6 @@ Feel free to contact me for any queries or suggestions related to this repositor
 
 ---
 
-Last Updated: 2023-11-23
+[My Notes](https://rgoshen.github.io/my-notes/overview.html)
+
+Last Updated: 2023-12-5
