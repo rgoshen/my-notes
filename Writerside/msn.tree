@@ -6,17 +6,16 @@
                   start-page="Overview.md">
 
     <toc-element topic="Overview.md"/>
-    <toc-element topic="Cheatsheets.md">
-        <toc-element topic="Command-line-Cheatsheet.md"/>
-        <toc-element topic="VIM.md"/>
-        <toc-element topic="Git-Cheatsheet.md"/>
-        <toc-element topic="Python-Cheatsheet.md"/>
-    </toc-element>
-    <toc-element topic="Amazon-Web-Services-AWS-Overview.md">
-        <toc-element topic="Full-Stack-Developer.md"/>
+    <toc-element topic="Cloud-Computing-Overview.md">
         <toc-element topic="Introduction-to-Cloud-Computing.md"/>
-        <toc-element topic="Front-End-Developer.md"/>
-        <toc-element topic="DynamoDB.md"/>
+        <toc-element topic="Amazon-Web-Services-AWS-Overview.md">
+            <toc-element topic="Full-Stack-Developer.md"/>
+            <toc-element topic="Front-End-Developer.md"/>
+            <toc-element topic="DynamoDB.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Databases-Overview.md">
+        <toc-element topic="PostgreSQL.md"/>
     </toc-element>
     <toc-element topic="DevOps-Overview.md">
         <toc-element topic="Introduction-to-DevOps-Tools.md"/>
@@ -151,6 +150,12 @@
                 </toc-element>
             </toc-element>
         </toc-element>
+    </toc-element>
+    <toc-element topic="Cheatsheets.md">
+        <toc-element topic="Command-line-Cheatsheet.md"/>
+        <toc-element topic="VIM.md"/>
+        <toc-element topic="Git-Cheatsheet.md"/>
+        <toc-element topic="Python-Cheatsheet.md"/>
     </toc-element>
 
 
