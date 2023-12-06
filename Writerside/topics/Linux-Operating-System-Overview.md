@@ -1,4 +1,4 @@
-# Linux Operating System
+# Linux Operating System Overview
 
 Linux is a free and open-source operating system that's widely used in various computing environments. Known for its
 robustness, security, and flexibility, Linux has become a popular choice for both personal and professional use.

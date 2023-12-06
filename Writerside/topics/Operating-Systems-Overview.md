@@ -1,4 +1,4 @@
-# Operating Systems
+# Operating Systems Overview
 
 A computer operating system (OS) is software that acts as an intermediary between a user and the computer hardware. It
 manages the system's hardware and provides services for computer programs.
