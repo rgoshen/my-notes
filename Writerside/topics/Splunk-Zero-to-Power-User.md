@@ -96,6 +96,88 @@ Three kinds:
 
 ## Getting Data into Splunk
 
+![data pipeline](splunk-datapipeline.jpg)
+
+1. Forwarders
+    - have the data, and they're forwarding it off, and your data is going to be in streams
+    - If it's not coming from a forwarder, it may be coming from local logs, could be from a TCP port monitoring some
+      kind of network traffic event, generations, etc.
+    - anything in Splunk can really be inputted into the SIM
+2. Parsing
+    - handled by indexer
+    - turned from streams into events and then also handled by the indexer
+3. Indexing
+    - compressed and written to disk
+4. Search
+    - query and display results
+
+### Input Types
+
+- Http event collector
+- log files
+- network traffic
+- etc.
+
+### Metadata
+
+- host-who sent the data
+- source-path to the data
+- source type-how the data will be formatted
+- index
+
+## App vs Add-on
+
+### App
+
+- something that can be launched and has a GUI component
+- usually reside on the search head and visibly displayed in the drop-down in the app's menu
+
+### Add-on or technology add-on (TA)
+
+- can also reside in the drop-down in the app's menu, but need to change the visibility settings for add-ons to be
+  displayed there
+- added to Splunk instance for additional functionality
+- usually runs in the background and also usually vendor specific for the type of data involved
+- workstation display does not change
+- can land on indexers, search head, or forwarder
+
+## The Basics of Searching
+
+### Search Types
+
+- Keywords and phrases
+    - designate phrases inside `""`
+- File paths
+
+### Wildcards
+
+- `LIKE` function with the percent `( % )` symbol as a wildcard for matching multiple characters
+- underscore `( _ )` character to match a single character
+- asterisk `( * )` character as a wildcard to match an unlimited number of characters in a string
+
+### Boolean Operators
+
+- `AND`
+- `OR`
+- `NOT` (exclude results from your search)
+
+> operators must be capitalized
+
+{style="note"}
+
+### Comparison Operators
+
+| Operator | Example    | Result                                                      |
+|----------|------------|-------------------------------------------------------------|
+| `=`      | field=foo  | Multivalued field values that exactly match "foo"           |
+| `!=`     | field!=foo | Multivalued field values that don't exactly match "foo"     |
+| `<`      | field<x    | Numerical field values that are less than x                 |
+| `>`      | field>x    | Numerical field values that are greater than x              |
+| `<=`     | field<=x   | Numerical field values that are less than and equal to x    |
+| `>=`     | field>=x   | Numerical field values that are greater than and equal to x |
+
+- `!=` (value does not match the value you specify)
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
