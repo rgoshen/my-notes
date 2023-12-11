@@ -155,6 +155,10 @@ Three kinds:
 - underscore `( _ )` character to match a single character
 - asterisk `( * )` character as a wildcard to match an unlimited number of characters in a string
 
+> use sparingly because they are very taxing on the Splunk search
+
+{style="warning"}
+
 ### Boolean Operators
 
 - `AND`
@@ -177,6 +181,132 @@ Three kinds:
 | `>=`     | field>=x   | Numerical field values that are greater than and equal to x |
 
 - `!=` (value does not match the value you specify)
+
+## Knowledge Objects
+
+- tools and useful things to take advantage when conducting analysis
+
+### What are Knowledge Objects?
+
+![knowledge objects](Splunk-timechart-data-models-and-alert.png)
+
+- a set of user-defined searches, fields, and reports that enrich your data and give it structure
+
+1. Tools
+    - conduct analysis, enrich your events
+2. Fields, field extractions, a lookup, tags, a field alias, data model or a saved search
+3. Teamwork
+    - shareable, reusable, and searchable based on permission sets
+
+### How are they managed?
+
+1. Knowledge Manager
+    - Ruler of the KOs
+    - a person who provides centralized oversight and maintenance of KOs for a Splunk environment
+    - Ex. Owner of a dashboard
+2. Naming conventions
+    - `<Group name>_<type>_<description>`
+    - Ex. SOC_alert_LoginFailures
+
+### Permissions
+
+1. Private
+    - only the person who created the object can use or edit it
+2. This app only
+    - objects persist in the context of a specific app
+3. All apps
+    - objects persist globally across all apps
+
+## Show Me the Fields
+
+### What are fields?
+
+- key-value pairs
+- searchable by name
+- ability to search mutliple fields at once or exclude fields from a search
+- created by Splunk or recognized from an Add-On
+
+> field names are case-sensitive (when searching) but field values are not
+
+> if no operators are set when searching fields, then Splunk assumes to search with `AND`
+
+#### Meta-fields
+
+1. Source
+2. Source-type
+3. Host
+
+### Making Use of Your Fields
+
+- you can create more seleccted fields
+
+#### `!=` vs `NOT`
+
+`index=web sourcetype=access_combined categoryId!=SPORTS`
+
+- This will tell Splunk to search for everything that does not contain the field value of sports for that field
+
+`index=web sourcetype=access_combined NOT categoryId!=SPORTS`
+
+- will tell Splunk to search for everything that does not contain the field value of sports and all events where the
+  category ID field doesn't exist
+
+## Search Processing Language (SPL)
+
+### Splunk syntax and colors
+
+- Orange - command modifiers
+    - tell the search what you are looking for
+    - can include your boolean operators, your keywords, or your phrases with `as` or `by` clauses set
+        - `OR`, `NOT`, `AND`, `as`, `by`
+- Blue - commands
+    - tell Splunk what you want to do with the results
+        - `Stats`, `Table`, `Rename`, `Dedup`, `Sort`, `Timechart`
+- Green - arguments
+    - these are the variables that you apply to the search, usually to a function
+        - `Limit`, `Span`
+- Purple - functions
+    - tell your search to do things such as perform mathematical functions or calculate fields
+        - `Tostring`, `Sum`, `Values`, `Min`, `Max`, `Avg`
+
+### Building effective SPLs
+
+`index=web OR index=security | stats sum(bytes) as Total_Bytes | eval Total_Bytes = tostring(Total_Bytes, "commas")`
+
+`index=web OR index=security`
+
+- pull all data from disk
+    - name you indexes and meta-fields
+
+`stats sum(bytes) as Total_Bytes`
+
+- set your command
+    - what are we trying to do
+
+`eval Total_Bytes = tostring(Total_Bytes, "commas")`
+
+- determine your functions
+    - do we need to calculate results?
+- call your arguments
+    - what fields are needed?
+
+The search was built from left to right, starting with determining where the data resides, setting the calculations, and
+then formatting the results, how to be displayed
+
+### Table, rename, fields, dedup, sort
+
+- `table`
+    - make a table of the results based off the variables and arguments you set in your search.
+- `rename`
+    - rename the fields that currently exist in the data or rename fields that you've calculated and built in your
+      searches
+- `fields`
+    - allows you to call on fields you want to include or exclude in your results
+- `dedup`
+    - stands for a duplicate and it will remove duplicated values from the results from the fields you select to
+      duplicate
+- `sort`
+    - will sort your results based off the arguments you set
 
 <seealso>
 <!--Give some related links to how-to articles-->
