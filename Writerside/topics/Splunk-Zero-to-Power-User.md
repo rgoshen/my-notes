@@ -308,6 +308,31 @@ then formatting the results, how to be displayed
 - `sort`
     - will sort your results based off the arguments you set
 
+## Transforming Your Search
+
+### What is a Transforming Command?
+
+- search command that orders the results into a data table
+- transform the specified cell value for each event into numerical values that Splunk can use for statistical purposes
+- searches that use transforming commands are called transforming searches
+
+> If you're running Splunk in Smart Mode, this is the mode that will toggle the search behavior
+> based on if the search contains a transforming command. If it does, then it's gonna act like Fast mode, and if it does
+> not, it's going act like Verbose mode
+
+### Three Transforming Commands
+
+1. Top
+    - finds the top common values of a field in a table
+    - top 10 results by default
+    - can use with arguments
+2. Rare
+    - finds the least common values of a field
+    - opposite of top
+3. Stats
+    - calculate statistics
+    - count, dc, sum avg list, values, etc.
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
