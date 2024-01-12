@@ -377,6 +377,43 @@ then formatting the results, how to be displayed
 | small scope on one item of interest                   | broad searching and grouping events                                                          |
 | correlations need to be found from start to end       | mathematical functions needed                                                                |
 
+## Manipulating Your Data
+
+### Eval command
+
+- Calculates fields
+    - does the math you ask: `+, -, *, /, AND, XOR, >=, ==`
+- Functions friendly
+    - just like stats, it takes plenty of functional arguments
+        - `if`
+        - `null`
+        - `cidrmatch`
+        - `like`
+        - `lookup`
+        - `tostring`
+        - `md5`
+        - `now`
+        - `strftime`
+    - if the field already exists, it will overwrite that field, but it won't modify the underlying data already
+      written to the disk
+- Create new fields
+    - Eval will take the results of the SPL into a field that is existing, or create a new one
+- Converting data
+    - tell Splunk to display a field vale of bytes to megabytes by providing the math in a eval
+      statement `Strftime`, `strptime`
+
+### where and search commands
+
+| Where                                               | Search                                 |
+|-----------------------------------------------------|----------------------------------------|
+| can't place before the first pipe in the SPL        | place it anywhere in the SPL           |
+| comparing values, or searching for a matching value | search on a keyword, or matching value |
+| use with functions                                  | search with wildcards                  |
+| think boolean operators=where                       | think expressional searches=search     |
+
+> `where` command used with double quotes it's going to search for field values and when used with single quotes, it
+> will search for field names
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
