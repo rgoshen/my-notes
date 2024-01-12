@@ -318,7 +318,7 @@ then formatting the results, how to be displayed
 
 > If you're running Splunk in Smart Mode, this is the mode that will toggle the search behavior
 > based on if the search contains a transforming command. If it does, then it's gonna act like Fast mode, and if it does
-> not, it's going act like Verbose mode
+> not, it's going to act like Verbose mode
 
 ### Three Transforming Commands
 
@@ -332,6 +332,50 @@ then formatting the results, how to be displayed
 3. Stats
     - calculate statistics
     - count, dc, sum avg list, values, etc.
+
+## What are the Events Telling Me?
+
+### Transaction Command
+
+- Events can be grouped into transactions based on the associated and related identified fields
+- helps enumerate that relation
+
+#### Arguments
+
+- maxspan
+    - Max time between all related events
+    - Ex: `maxspan=15m`
+- maxpause
+    - Max time between each event
+    - Ex: `maxpause=1m`
+- startswith & endswith
+    - Set your variables for keywords, Windows EventIDs, or other searches of interest
+    - Ex: `startswith=4624` & `endswith=4647`
+
+> transaction command can be a very taxing search to run in your environment, so should be used sparingly, especially
+> for huge data sets
+
+{style="warning"}
+
+### Investigating your events
+
+- Events that span time
+    - they can come from multiple hosts, relate to one host of interest
+- Grouping of events
+    - show the entire conversation, from start to finish in one view
+- Aid investigations
+    - relate user activity for logins, session lengths, browsing history, etc.
+- Log validation
+    - check to see if data is related to network logs of interest, website traffic, emails, etc.
+
+### Transaction vs stat
+
+| Transaction                                           | Stats                                                                                        |
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| slow and will tax your environment                    | faster, more efficient searching                                                             |
+| granular analysis (logs, user behavior, conversations | looking at larger pools of events for trend analysis (no limit on number of events returned) |
+| small scope on one item of interest                   | broad searching and grouping events                                                          |
+| correlations need to be found from start to end       | mathematical functions needed                                                                |
 
 <seealso>
 <!--Give some related links to how-to articles-->
