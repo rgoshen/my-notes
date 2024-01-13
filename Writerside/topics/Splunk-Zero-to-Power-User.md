@@ -416,7 +416,7 @@ then formatting the results, how to be displayed
 
 {style="note"}
 
-## Fields Part 2
+## Fields, Part 2
 
 ### Field extraction methods
 
@@ -515,6 +515,30 @@ then formatting the results, how to be displayed
 - Multi-series
     - `On=y-axis` to split for each value
     - `Off=all` fields share the y-axis
+
+## Visualizations, Part 2
+
+### Additional commands
+
+- `iplocation`
+    - add location information to visualizations
+    - can be towns, cities, countries or just lat and long
+- `geostats`
+    - calculate functions to display a cluster map
+    - must be used with lat and long fields
+    - all other arguments are optional
+    - `latitude`, `longitude`, `globallimit`, `locallimit`
+- `addtotals`
+    - add multiple values together on a chart, compute total sums of values
+    - `Fieldname`,`label`, `labelfield`
+- `trendline`
+    - overlay on a chart to show the moving average
+    - `sma` (simple moving average), `ema` (exponential moving average), `wma` (weighted moving average)
+    - needs the functional trend type you're using for that field that you're calculating that function from included in
+      the command
+    - need you to define an integer value for the period that you want to set
+
+### Additional visualization options
 
 <seealso>
 <!--Give some related links to how-to articles-->
