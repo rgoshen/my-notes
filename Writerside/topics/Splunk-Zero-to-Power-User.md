@@ -414,6 +414,62 @@ then formatting the results, how to be displayed
 > `where` command used with double quotes it's going to search for field values and when used with single quotes, it
 > will search for field names
 
+## Fields Part 2
+
+### Field extraction methods
+
+- Regex - unstructured data
+- Delimiters -structured data
+- Commands -work with rex & erex in SPL
+
+### erex & rex commands
+
+- rex
+    - regex pro
+    - using regex to create a new field out of an existing field
+    - have to tell what field to extract the data from
+- erex
+    - aids in generating the regex for the extraction
+    - must provide examples
+
+## Lookups
+
+### What is a lookup?
+
+- A file
+    - mostly static data that is not in an index
+    - Ex: csv of all employees
+- A tool
+    - add additional fields to search for
+    - fields will be added to the fields bar menu
+
+### How to use one
+
+- Data enrichment
+    - add information and store it in a table/file format to then search
+- Commands
+    - `Lookup`
+        - used to load the results contained in the lookup
+        - can be used to just view the data
+        - can be used as a form of validation
+    - `inputlookup`
+        - used to search the contents of a lookup table
+    - `outputlookup`
+        - used to write to that lookup table
+    - `OUTPUT`
+        - this argument when added will overwrite existing fields
+    - `OUTPUTNEW`
+        - this argument when added will not overwrite existing fields
+- Create or Upload
+    - select a file to upload or make one to reference
+
+> Lookups can be configured to run automatically
+
+### Making a lookup
+
+- Navigate to `Settings` > `Lookup table files`
+- Click `New Lookup Table File`
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
