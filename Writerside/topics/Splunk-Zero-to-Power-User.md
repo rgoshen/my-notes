@@ -538,7 +538,38 @@ then formatting the results, how to be displayed
       the command
     - need you to define an integer value for the period that you want to set
 
-### Additional visualization options
+## Reports & Drill Downs
+
+### Reports
+
+#### What are reports?
+
+- a saved search
+    - anything that is a search can be saved as a report
+- live results
+    - re-run a report or set it to run on a schedule
+- Shareable knowledge object
+    - let anyone view your reports, or add them to a dashboard for people to reference
+    - ex:`Audit_Report_LicenseUseage`
+
+### Drill-down functionality
+
+- Actions
+    - link to search
+    - link to dashboard
+    - link to report
+- $tokens$
+    - tokens play a key role in passing variables from panel to panel
+    - values that we can pass within a dashboard or search to optimize the shared values of what we want to search
+    - used to allow for user input to be taken and then searched against
+- Export
+    - export as a PDF, print, or include a report
+
+### Make a home dashboard
+
+Navigate to`Settings` > `Dashboards` > `Edit` > `Set as Home Dashboard`
+
+- change in your preferences what you launch into after login
 
 <seealso>
 <!--Give some related links to how-to articles-->
