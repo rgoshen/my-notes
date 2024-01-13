@@ -414,6 +414,8 @@ then formatting the results, how to be displayed
 > `where` command used with double quotes it's going to search for field values and when used with single quotes, it
 > will search for field names
 
+{style="note"}
+
 ## Fields Part 2
 
 ### Field extraction methods
@@ -465,10 +467,54 @@ then formatting the results, how to be displayed
 
 > Lookups can be configured to run automatically
 
+{style="note"}
+
 ### Making a lookup
 
 - Navigate to `Settings` > `Lookup table files`
 - Click `New Lookup Table File`
+
+## Visualize Your Data
+
+### Types of visualizations
+
+- Tables
+- Charts
+- Maps
+
+### Visualization commands
+
+- timechart
+    - time series will display statistical trends over time
+    - single or multi-series
+        - to get multi-series, you need to have `chart` or `timechart` command in the search
+    - ex: `Span=1d`
+
+> What is the difference between stats, chart, and timechart?
+> - one starts with time, so that is the ability to view statistical data over time
+> - chart and stats are similar, but differ in the `buy` and `over` clauses you sue with them
+> - chart can also generate summarized versions of a stats table
+
+- chart
+    - line, area, bar, bubble, pie, scatter, etc.
+    - stacking available
+    - remove empty values
+        - `Useother=f` `Usenull=f`
+- stats
+    - can easily alter any stats table
+
+### Options for panels
+
+- stacking
+    - `On` = events are vertically stacked (top to bottom)
+    - `Off` = counts are horizontally stacked (left to right)
+- overlay
+    - ex: add two line charts over each other
+- Trellis
+    - display multiple charts at once
+- Multi-series
+    - `On=y-axis` to split for each value
+    - `Off=all` fields share the y-axis
 
 <seealso>
 <!--Give some related links to how-to articles-->
