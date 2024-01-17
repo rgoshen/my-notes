@@ -67,6 +67,7 @@
     </toc-element>
     <toc-element topic="Programming-Languages-Overview.md">
         <toc-element topic="C-Programming-A-Modern-Approach-Book.md"/>
+        <toc-element topic="Master-Go-Programming-The-Complete-Go-Bootcamp.md"/>
     </toc-element>
     <toc-element topic="Software-Testing-Overview.md">
         <toc-element topic="Python-Testing-Overview.md">
