@@ -571,6 +571,48 @@ Navigate to`Settings` > `Dashboards` > `Edit` > `Set as Home Dashboard`
 
 - change in your preferences what you launch into after login
 
+## Alerts
+
+### What are alerts?
+
+- saved searches
+    - run on a schedule
+    - run real-time
+- content matches
+    - fire when a condition is matched
+- create trigger actions
+    - log
+    - send email
+    - webhook
+    - custom action
+- create trigger conditions
+    - per result
+    - no. of results
+    - no. of sources
+    - custom
+    - throttle
+
+## Welcome, Tags, & Events
+
+### What is a tag?
+
+- quick reminder
+    - what was it that I was trying to see again
+- aid for reading data
+    - create as many tags as you want
+- case sensitive
+    - typing matters when searching
+
+### What are event types
+
+- highlighter
+    - make them colors, mark events with similar criteria
+- like a report, but not
+    - save searches as specific event types, sort into categories, no time range
+    - ex: `status=400` can be saved as "Not Found"
+- more specific
+    - set strings, field values, & tags
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
