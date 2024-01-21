@@ -613,6 +613,59 @@ Navigate to`Settings` > `Dashboards` > `Edit` > `Set as Home Dashboard`
 - more specific
     - set strings, field values, & tags
 
+## Macros
+
+### What are macros?
+
+- shortcuts
+    - fast, saved off searches to run by name
+- Repeatable
+    - macros never change unless you edit them
+- expandable
+    - `CTRL+SHIFT+E` on windows
+    - `CMND+SHIFT+E` on macs
+- `macroname`
+    - run with the use of backticks, not single quotes
+- macros can take one or more arguments
+    - if you want use arguments, you must surround them with parenthesis
+
+### Making a macro
+
+- Navigate to `Settings` > `Advanced search` > `Search macros`
+- Click `Add new` to create one
+
+## Workflows to Save You Time
+
+### Introduction to workflow actions
+
+- Assess actions
+    - depending on use case, there are three available workflow actions which provide different functionalities
+- Create workflow action
+    - using Splunk web, create a new workflow action to either push, pull or search data
+- Configure workflow action
+    - within the web GUI,configure the previously determined action type with a 3rd party source
+- Validation
+    - check to see if data is being pushed, pulled searched for after configuration
+
+Splunk provides two main workflow actions:
+
+1. **GET**
+    - create HTML links to interact with sites
+    - ex:Google searches, query WHOIS databases
+2. **POST**
+    - generate HTTP POST request to specific URI
+    - ex: create entries in management systems, forums
+
+Another workflow action is **Search**
+
+- Launch secondary searches using field values
+    - ex: occurrences of IP addresses over events
+
+### GET Workflow action
+
+- Navigate to `Settings` > `Fields` > `Workflow Actions`
+- Click `New` to open up a workflow action form
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
