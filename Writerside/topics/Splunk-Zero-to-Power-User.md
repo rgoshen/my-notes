@@ -666,6 +666,61 @@ Another workflow action is **Search**
 - Navigate to `Settings` > `Fields` > `Workflow Actions`
 - Click `New` to open up a workflow action form
 
+## Data Normalization and Troubleshooting
+
+### Field aliases
+
+- ex: `src` `ip_address` `source`
+- normalize your data
+- apply multiple fields to the same field alias
+- make searching and training easier amongst users
+- thing CIM
+
+> The original field name in not affected post field alias implementation
+
+{style="note"}
+
+- Navigate to `Settings` > `Fields` > `Field Aliases`
+- click `New Field Alias` to create one
+
+### Calculated fields
+
+- like a macro but for fields
+- save off quick math to output fields using the `eval` command, then use it in a search
+
+- Navigate to `Settings` > `Fields` > `Calculated Aliases`
+- click `New Calculated Field` to create one
+
+### Buckets
+
+![splunk buckets](splunk_buckets.jpg)
+
+- **Hot**
+    - data is being actively written to the bucket by the indexer
+    - *only writable bucket
+    - data is searchable
+- **Warm**
+    - data is getting older
+    - rolled from hot > warm
+    - data is searchable
+- **Cold**
+    - data is even older
+    - data is searchable
+
+> Warm and cold buckets cannot be written to, but all buckets can be searched
+
+{style="note"}
+
+- Based on the retention policy with Splunk, the data will eventually roll over to the frozen bucket and the data will
+  either get archived or deleted
+- Frozen buckets are not searchable
+
+### Job inspector
+
+| tool                                                                       | information                                                                   | tips                                                                    |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Allows you to trouble shoot your search efficiently, or reason for failing | Gives you information about how the search completed, and time it took to run | If you are using a KO wrong, it will suggest how to correct your search |
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
