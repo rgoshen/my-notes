@@ -721,6 +721,42 @@ Another workflow action is **Search**
 |----------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Allows you to trouble shoot your search efficiently, or reason for failing | Gives you information about how the search completed, and time it took to run | If you are using a KO wrong, it will suggest how to correct your search |
 
+## Datamodels
+
+### What are datamodels?
+
+- Hierarchical
+    - parent and child relationship
+    - root dataset
+- Dataset search
+    - select the specific datamodel and dataset you want to search
+- Normalization tool
+    - CIM compliant
+    - data mapping to a model that fits that type of data
+- Large data searches
+    - search larger amounts of data faster, with tstats and accelerated datamodels
+
+### Commands
+
+1. datamodel
+2. tstats
+3. pivot
+
+#### Syntax
+
+`| datamodel <Data_Model> <Data_Model_Dataset> search | search sourcetype=<your:sourcetype> | table * | fields - <List any statistics columns you do not want to display> | fieldsummary`
+
+`| tstats <stats-function> from datamodel=<datamodel-name> where <where-conditions> by <field-list>`
+
+**Examples:**
+
+`| datamodel | Network_Traffic All_Traffic search | search sourcetype=cisco:* | stats count by sourcetype`
+
+`| tstats count from datamodel=web`
+
+`| tstats \`summariesonly\` count from datamodel=Intrusion_Detection.IDS_Attacks where IDS_Attacks.severity=high OR
+IDS_Attacks.severity=critical by IDS.Attacks.src, IDS_Attacks.dest, IDS_Attacks.signature, IDS_Attacks.severity`
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
