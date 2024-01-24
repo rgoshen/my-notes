@@ -757,6 +757,38 @@ Another workflow action is **Search**
 `| tstats \`summariesonly\` count from datamodel=Intrusion_Detection.IDS_Attacks where IDS_Attacks.severity=high OR
 IDS_Attacks.severity=critical by IDS.Attacks.src, IDS_Attacks.dest, IDS_Attacks.signature, IDS_Attacks.severity`
 
+## The Common Information Model (CIM)
+
+### What is the CIM?
+
+- A Model
+    - a model to use and reference a common standard of operations for how all data is handled
+- An Application
+    - provides 22 pre-configured data models for you use and build off, tune and map your data to
+    - CIM Add-On and CIM Add-On Builder are available for free
+- Data Normalizer
+    - in the end, all fields can have the same name
+    - all apps can coexist together
+
+### How to leverage its features
+
+- Normalize data
+- Assistance
+    - leverage it when creating field extractions, aliases, tags, etc.
+- Datamodel command
+    - be able to run common searches that span larger amounts of data
+
+### Why is it important
+
+- Splunk Premium Apps
+    - Splunk ES relies heavily on CIM compliant data
+- Health Check Tool
+    - perform faster, more efficient searches that leverage searching data models instead of raw events
+- Ease of Use
+    - find commonality among Splunkers
+- Audit
+    - check to see if all our data going into Splunk is CIM compliant
+
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
