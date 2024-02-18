@@ -2,7 +2,7 @@
 
 **incomplete**
 
-## C Fundamentals
+## C Fundamentals {collapsible="true" default-state="expanded"}
 
 ### Writing a Simple Program
 

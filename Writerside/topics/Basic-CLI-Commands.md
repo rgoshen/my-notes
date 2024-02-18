@@ -1,10 +1,10 @@
 # Basic CLI Commands
 
-## Linux Flavors
+## Linux Flavors {collapsible="true" default-state="expanded"}
 
 - [Manjaro](Manjaro-Linux-Overview.md)
 
-## Basic Commands
+## Basic Commands {collapsible="true" default-state="expanded"}
 
 ### Change Owner
 
@@ -26,7 +26,7 @@ u = user g = group o = other
 
 r = read w = write x = execute
 
-## PostgreSQL Commands
+## PostgreSQL Commands {collapsible="true" default-state="expanded"}
 
 - check postgreSQL service status
 

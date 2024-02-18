@@ -1,6 +1,6 @@
-# Manjaro Linux
-
 [![manajaro-logo](manjaro_logo.png)](https://manjaro.org/)
+
+# Manjaro Linux
 
 Manjaro Linux is a user-friendly Linux distribution based on the independently developed Arch operating system. Manjaro
 is suitable for both newcomers and experienced computer users.

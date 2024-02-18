@@ -2,7 +2,7 @@
 
 **incomplete**
 
-## Getting Started
+## Getting Started {collapsible="true" default-state="expanded"}
 
 ### GOPATH and Code Organization
 
@@ -75,7 +75,7 @@ _Example:_
 
 - if you run `gofmt` in the directory, all source files will be formatted correctly
 
-## Go Basics
+## Go Basics {collapsible="true" default-state="expanded"}
 
 ### Variables in Go
 
