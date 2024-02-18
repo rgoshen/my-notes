@@ -137,12 +137,12 @@ s2: `/^[a-z]([0-9]{2,}|[a-z+\d*)\S]/i`
 
 ## Match whitespace {collapsible="true" default-state="expanded"}
 
-s = space
-r = carriage return
-t = tab
-f = form feed
-n = new line
-v = vertical tab
+- s = space
+- r = carriage return
+- t = tab
+- f = form feed
+- n = new line
+- v = vertical tab
 
 <seealso>
 <!--Give some related links to how-to articles-->
