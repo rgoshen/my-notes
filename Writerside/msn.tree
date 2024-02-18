@@ -47,6 +47,7 @@
         <toc-element topic="Terminal.md"/>
     </toc-element>
     <toc-element topic="Misc-Topics.md">
+        <toc-element topic="Regular-Expressions.md"/>
         <toc-element topic="How-to-Solve-Any-Algorithm.md"/>
         <toc-element topic="Full-stack-Project-Planning.md"/>
         <toc-element topic="Computational-Thinking-for-Problem-Solving.md">
