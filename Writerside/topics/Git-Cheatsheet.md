@@ -2,12 +2,17 @@
 
 ## Git configuration {collapsible="true" default-state="expanded"}
 
-- `git config --global color.ui auto`
-- **Define author name**: `git config --global user.name 'user name'`
-- **Define author email**: `git config --global user.email 'user email'`
-- **Create alias for git command**: `git config --global alias.<alias_name><git-command>`
-- **Define text editor used by git commands**: `git config --system core.editor '<editor> --wait'`
-- **Open the global configuration file in a text editor for manual editing**: `git config --global --edit`
+`git config --global color.ui auto`
+
+**Define author name**: `git config --global user.name 'user name'`
+
+**Define author email**: `git config --global user.email 'user email'`
+
+**Create alias for git command**: `git config --global alias.<alias_name><git-command>`
+
+**Define text editor used by git commands**: `git config --system core.editor '<editor> --wait'`
+
+**Open the global configuration file in a text editor for manual editing**: `git config --global --edit`
 
 > NOTE:
 >
@@ -17,54 +22,66 @@
 >
 > `--system` set config for entire system, all users, all repos on the machine
 
+{style="note"}
+
 ## Commands Related to Remote Repository {collapsible="true" default-state="expanded"}
 
 ### Adding
 
-- **Option 1 (Cloning)**: `git clone <url>`
-- **Option 2 (Clone to a specific directory)**: `git clone <repo_URL><directory>`
-- **Option 3 (map to a remote repo to a reference in your local repo)
-  **: `git remote add <remote_name> <remote-repo-url>`
+`git remote add <remote_name> <remote-repo-url>`
 
 ### Pushing
 
-- **Push to remote repo**: `git push` or `git push origin main`
-- **Push local branches to remote (first time)**: `git push -u <remote_name><local_branch_name>`
-- **Push the local repo branch under**: `<local_branch_name>` to the remote repo @ `<remote_name>`
+**Push to remote repo**: `git push` or `git push origin main`
+
+**Push local branches to remote (first time)**: `git push -u <remote_name><local_branch_name>`
+
+- "u" flag creates a remote tracking reference for every branch you successfully push on to the remote
+- allows the use of the `git pull` command without any arguments
+
+**Push the local repo branch under**: `<local_branch_name>` to the remote repo @ `<remote_name>`
 
 ### Removing
 
-- `git remote rm upstream`
+`git remote rm upstream`
 
-### Misc
+### Miscellaneous
 
 - **Fetching remote**: `git fetch <remote name>/<branch name>`
 - **Checkout remote**: `git checkout <remote name>/<branch name>`
 
 ## Commands Related to Starting a Git Repo {collapsible="true" default-state="expanded"}
 
-- **Option 1 (starting from remote)**:`git clone <url>`
+### Cloning a repo
 
-**Option 2 (Local directory already created)**:
+**Option 1 (clone to current directory)**: `git clone <url>`
+
+**Option 2 (clone to specified directory)**: `git clone <url> <directory>`
+
+### New repo
+
+**Option 1 (Local directory already created)**:
 
 ```bash
 cd <project-folder>
 git init
 ```
 
-**Option 3 ((Local directory NOT already created)**: `git init <project_directory>`
+**Option 2 ((Local directory NOT already created)**: `git init <project_directory>`
 
-**Option 4: (initialize empty repo)**: `git init --bare <project_directory>`
+**Option 3: (initialize empty repo)**: `git init --bare <project_directory>`
 
 ## Commands Related to Workflow {collapsible="true" default-state="expanded"}
 
 ### Saving Changes to the Repo
 
-Option #1 (add single file): `git add <project_file>`
+Option #1 (add single file): `git add <file_name>`
 
 Option #2 (add all files): `git add .`
 
 Option #3 (interactive staging session): `git add -p`
+
+- "p" flag gets hunks and selectively add
 
 ### Committing Changes to the Repo
 
@@ -72,13 +89,17 @@ Option #1 (open interactive editor): `git commit`
 
 Option #2 (commit with a short message): `git commit -m "some short message"`
 
-Option #3 (change a commit message): `git commit --amend`
+- "m" flag adds a short message instead of opening up an editor
+
+Option #3 (modify the las commit with staged changes): `git commit --amend`
 
 ### Delete a branch
 
-- **Delete a branch (local)**: `git branch -D <branch-name>`
-- **Option 1 (Delete remote branch)**: `git push origin :<branch-name>`
-- **Option 2 (Delete remote branch)**: `git push origin --delete <branch-name>`
+**Delete a branch (local)**: `git branch -D <branch-name>`
+
+**Option 1 (Delete remote branch)**: `git push origin :<branch-name>`
+
+**Option 2 (Delete remote branch)**: `git push origin --delete <branch-name>`
 
 ### Misc
 
