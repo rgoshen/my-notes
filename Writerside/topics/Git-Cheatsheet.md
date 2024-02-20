@@ -115,6 +115,24 @@ Option #3: `git diff branch1 ... branch2`
 
 Option #4: `git diff <branch1><branch2> ./file.txt`
 
+## Advanced Git commands
+
+1. Add & Commit: `git commit -am "short message goes here"`
+2. Amend:
+    - Change the message of current commit: `git commin --amend -m "new message"`
+    - Add additional changes to current commit: `git add .` `git commit --amend --no-edit`
+3. Override remote history: `git push origin main --force`
+4. Revert: `git log --oneline` `git revert <commit id>`
+5. Stash:
+    - Save with a name: `git stash save <name>`
+    - List: `git stash list`
+    - Apply: `git stash apply <index>`
+6. Rename branch: `git branch -M <newName>`
+7. Decorate the logs: `git log --graph --decorate --oneline`
+8. Switch back previous branch: `git checkout -`
+9. Copy remote changes: `git fetch origin` `git reset --hard origin/main`
+    - still untracked files: `git clean -df`
+
 ## Glossary {collapsible="true"}
 
 A definition list or a glossary:
