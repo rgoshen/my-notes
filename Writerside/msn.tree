@@ -59,6 +59,7 @@
     </toc-element>
     <toc-element topic="Operating-Systems-Overview.md">
         <toc-element topic="Linux-Operating-System-Overview.md">
+            <toc-element topic="Linux-for-Beginners.md"/>
             <toc-element topic="Basic-CLI-Commands.md"/>
             <toc-element topic="Manjaro-Linux-Overview.md">
                 <toc-element topic="Manjaro-Misc.md"/>
@@ -67,9 +68,11 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Programming-Languages-Overview.md">
+        <toc-element topic="Java-Language-Overview.md">
+            <toc-element topic="Java-Virtual-Machine-Architecture-Explained-for-Beginners.md"/>
+        </toc-element>
         <toc-element topic="C-Programming-A-Modern-Approach-Book.md"/>
         <toc-element topic="Master-Go-Programming-The-Complete-Go-Bootcamp.md"/>
-        <toc-element topic="Java-Virtual-Machine-Architecture-Explained-for-Beginners.md"/>
     </toc-element>
     <toc-element topic="Advanced-React-Design-System-Design-Patterns-Performance.md"/>
     <toc-element topic="Software-Testing-Overview.md">
@@ -177,6 +180,4 @@
         <toc-element topic="Git-Cheatsheet.md"/>
         <toc-element topic="Python-Cheatsheet.md"/>
     </toc-element>
-
-
 </instance-profile>
