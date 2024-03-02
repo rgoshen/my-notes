@@ -9,7 +9,7 @@ science.
 ## Contents
 
 - [Programming Languages](#programming-languages)
-- [DevOps Topics](#devops-topics)
+- [DevOps and Cloud Topics](#devops-and-cloud-topics)
 - [Computer Science](#computer-science)
 - [Cheat Sheets](#cheat-sheets)
 - [Online Courses](#online-courses)
@@ -102,4 +102,4 @@ Feel free to contact me for any queries or suggestions related to this repositor
 
 [My Notes](https://rgoshen.github.io/my-notes/overview.html)
 
-Last Updated: 2023-12-5
+Last Updated: 2024-03-01
