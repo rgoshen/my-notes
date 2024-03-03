@@ -8,14 +8,14 @@ science.
 
 ## Contents
 
-- [Programming Languages](#programming-languages)
+- [Programming Languages](#programming-languagesframeworks)
 - [DevOps and Cloud Topics](#devops-and-cloud-topics)
 - [Computer Science](#computer-science)
 - [Cheat Sheets](#cheat-sheets)
 - [Online Courses](#online-courses)
 - [Additional Resources](#additional-resources)
 
-### Programming Languages
+## Programming Languages/Frameworks
 
 Here, you'll find notes on all the programming languages and frameworks I've studied over the years. Each language has
 its own topic
@@ -32,7 +32,7 @@ with respective notes and resources.
 - C
 - [More...](#)
 
-### DevOps and Cloud Topics
+## DevOps and Cloud Topics
 
 This section covers notes on various DevOps practices and tools I've explored.
 
@@ -44,7 +44,7 @@ This section covers notes on various DevOps practices and tools I've explored.
 - AWS
 - [More...](#)
 
-### Computer Science
+## Computer Science
 
 In-depth notes on computer science topics can be found here, ranging from algorithms to system design.
 
@@ -54,7 +54,7 @@ In-depth notes on computer science topics can be found here, ranging from algori
 - Databases
 - [More...](#)
 
-### Cheat Sheets
+## Cheat Sheets
 
 Quick reference cheat sheets for various technologies and languages.
 
@@ -63,7 +63,7 @@ Quick reference cheat sheets for various technologies and languages.
 - Linux Commands
 - [More...](#)
 
-### Online Courses
+## Online Courses
 
 A collection of notes and key learnings from online courses I've taken on platforms like Udemy, Coursera, and YouTube.
 
@@ -72,7 +72,7 @@ A collection of notes and key learnings from online courses I've taken on platfo
 - [YouTube Tutorials](#)
 - [More...](#)
 
-### Additional Resources
+## Additional Resources
 
 Miscellaneous notes, resources, and write-ups on various software engineering topics.
 
