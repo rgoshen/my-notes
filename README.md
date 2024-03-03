@@ -8,7 +8,7 @@ science.
 
 ## Contents
 
-- [Programming Languages](#programming-languagesframeworks)
+- [Programming Languages/Frameworks](#programming-languagesframeworks)
 - [DevOps and Cloud Topics](#devops-and-cloud-topics)
 - [Computer Science](#computer-science)
 - [Cheat Sheets](#cheat-sheets)
