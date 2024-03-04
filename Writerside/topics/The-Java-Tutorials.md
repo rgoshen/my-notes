@@ -5,6 +5,8 @@ applications. They include hundreds of complete, working examples, and dozens of
 
 ## Covering the Basics
 
+- [Getting Started](Getting-Started.md)
+
 <seealso>
 <category ref="external">
            <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java Tutorials</a>

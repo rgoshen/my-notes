@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
 <terms>
-    <term name="fqn">In Java, a fully qualified name refers to the complete path of a class or interface, which includes the package name followed by the class or interface name. This naming convention is used to uniquely identify a class or interface in situations where there might be multiple classes or interfaces with the same name in different packages. The fully qualified name helps to avoid naming conflicts by specifying the exact location of the class or interface in the package hierarchy.</term>
+    <term name="api">a large collection of ready-made software components that provide many useful capabilities</term>
+    <term name="fqn">In Java, a fully qualified name refers to the complete path of a class or interface, which includes
+        the package name followed by the class or interface name. This naming convention is used to uniquely identify a
+        class or interface in situations where there might be multiple classes or interfaces with the same name in
+        different packages. The fully qualified name helps to avoid naming conflicts by specifying the exact location of
+        the class or interface in the package hierarchy.
+    </term>
+    <term name="platform">hardware or software environment in which a program runs</term>
 </terms>
