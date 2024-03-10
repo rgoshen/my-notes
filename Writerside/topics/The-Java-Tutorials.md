@@ -6,6 +6,7 @@ applications. They include hundreds of complete, working examples, and dozens of
 ## Covering the Basics
 
 - [Getting Started](Getting-Started.md)
+- [Learning the Java Language](Learning-the-Java-Language.md)
 
 <seealso>
 <category ref="external">
