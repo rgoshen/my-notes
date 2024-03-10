@@ -141,8 +141,6 @@ The "Hello World" app consists of three main components:
 
 ### Class Definition
 
-## Common Problems (and Their Solutions)
-
 ```java
 class HelloWorldApp {
     
@@ -177,6 +175,8 @@ class HelloWorldApp {
 Finally the line: `System.out.println("Hello World!");`
 
 - ses the `System` class from the core library to print the "Hello World!" message to standard output
+
+## Common Problems (and Their Solutions)
 
 <seealso>
 <!--Give some related links to how-to articles-->
